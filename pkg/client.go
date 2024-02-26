@@ -3,11 +3,12 @@ package pkg
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/aalekhpatel07/go-vastai-client/pkg/command"
-	"github.com/aalekhpatel07/go-vastai-client/pkg/data_types"
 	"io"
 	"net/http"
 	url2 "net/url"
+
+	"github.com/aalekhpatel07/go-client-vastai/pkg/command"
+	"github.com/aalekhpatel07/go-client-vastai/pkg/data_types"
 )
 
 type Client struct {

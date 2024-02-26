@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/aalekhpatel07/go-vastai-client/pkg/data_types"
+	"github.com/aalekhpatel07/go-client-vastai/pkg/data_types"
 )
 
 type SearchOffersRequest data_types.Query

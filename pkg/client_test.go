@@ -2,10 +2,11 @@ package pkg
 
 import (
 	"fmt"
-	"github.com/aalekhpatel07/go-vastai-client/pkg/command"
-	"github.com/aalekhpatel07/go-vastai-client/pkg/data_types"
 	"os"
 	"testing"
+
+	"github.com/aalekhpatel07/go-client-vastai/pkg/command"
+	"github.com/aalekhpatel07/go-client-vastai/pkg/data_types"
 )
 
 func TestClient_SearchOffers(t *testing.T) {

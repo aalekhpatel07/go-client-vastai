@@ -3,8 +3,9 @@ package command
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/aalekhpatel07/go-vastai-client/pkg/data_types"
 	"testing"
+
+	"github.com/aalekhpatel07/go-client-vastai/pkg/data_types"
 )
 
 func TestNewSearchOffersRequest(t *testing.T) {
